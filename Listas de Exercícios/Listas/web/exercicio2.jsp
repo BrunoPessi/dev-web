@@ -1,0 +1,25 @@
+<%@ page import="java.text.*" %>
+<%@ page import="java.util.*" %><%--
+  Created by IntelliJ IDEA.
+  User: Bruno
+  Date: 12/05/2020
+  Time: 03:05
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Exercicio 2</title>
+</head>
+<body>
+<%
+    out.println("<h1>Lista 2 - Exercicio 3 </h1>");
+    int n1 = 2;
+    int n2 = 8;
+    int resultado = n1 + n2;
+
+    out.println("<h3>A soma dos numeros " + n1 + " e " + n2 + " = " + resultado);
+%>
+</body>
+</html>
